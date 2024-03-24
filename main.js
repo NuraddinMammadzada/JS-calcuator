@@ -13,12 +13,10 @@ function clearDisplay() {
   currentInput = '0';
   document.getElementById('display').textContent = currentInput;
 }
-
 function operate(operator) {
   currentInput += operator;
   document.getElementById('display').textContent = currentInput;
 }
-
 function changeBackground() {
     document.body.style.backgroundColor = '#fff'; 
   }
